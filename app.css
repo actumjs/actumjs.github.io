@@ -1,0 +1,114 @@
+.textCopiedMessage{
+    color: green;
+    position: sticky;
+    left: 0;
+}
+span.token.operator {
+    background: black;
+    color: #ddea14;
+}
+.textTitle{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: arial !important;
+    color:black !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.textDescription{
+    font-size: 18px !important;
+    padding: 20px 50px;
+    color: #756e6e;
+    font-family: arial !important;
+    text-align: justify !important;
+}
+
+.sideButtom{
+    background: #0080ff !important;
+    margin-left: 6px !important;
+    margin-bottom: 6px !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+.menuListContainer{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 49px;
+    bottom: 0;
+    background: white;
+}
+.consoleStyle{
+    background: black !important;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    overflow: overlay;
+    /* min-height: 60px; */
+    min-width: 100px;
+}
+
+.consoleStyleMobile{
+    background: black !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    font-size: 16px;
+    font-family: arial;
+    text-align: left;
+    overflow: overlay;
+    /* min-height: 60px; */
+    min-width: 100px;
+}
+
+
+.textDescriptionMobile{
+    font-size: 18px !important;
+    padding: 10px;
+    color: #756e6e;
+    font-family: arial !important;
+    text-align: justify !important;
+}
+
+    /* width */
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background:#0080ff80;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background:#0080ff;
+}
+
+p.devtip {
+    border-left: 10px solid #2196F3;
+    border-bottom: 1px solid #2196F3;
+    background: #2196f34f;
+    color: black;
+    border-radius: 10px;
+    width: 75%;
+}
+
+a.MuiTypography-root.MuiLink-root.MuiLink-underlineHover.MuiTypography-colorPrimary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 414px) {
+    p.devtip {
+        width:90%;
+    }
+  }
